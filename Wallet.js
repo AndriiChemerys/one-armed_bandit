@@ -7,6 +7,18 @@ class Wallet {
         this.checkCanPay = value => {
             if (_money >= value) return true
         }
+        this.changeWallet=(value, type='+') => {
+            if(typeof value === 'number' && !isNaN(value))
+            {
+                if (typ==="+") {
+                    return _money += value;
+                } else if (type=== "-") {
+                    return _money -= value;
+                } else {
+                    throw new Error('Nieprawidłowy ty działania')
+                }
+            }
+        }
     }
 }
 
