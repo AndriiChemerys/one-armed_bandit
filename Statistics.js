@@ -11,6 +11,11 @@ class Statistics {
         console.log(gameResult);
         this.gameResults.push(gameResult)
     }
+    showGameStatistics(){
+        let games = this.gameResults.length;
+        let wins = this.gameResults.filter(result => result.win)
+        // return [liczbaGier, liczbaWygranych, liczbaPorazek]
+    }
 }
 
 const stats = new Statistics()
