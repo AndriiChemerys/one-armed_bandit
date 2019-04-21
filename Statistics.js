@@ -13,8 +13,10 @@ class Statistics {
     }
     showGameStatistics(){
         let games = this.gameResults.length;
-        let wins = this.gameResults.filter(result => result.win)
-        // return [liczbaGier, liczbaWygranych, liczbaPorazek]
+        let wins = this.gameResults.filter(result => result.win).length;
+        let losses = this.gameResults.filter(results=> !result.win).length;
+        console.log(games, wins, losses);
+        return [games, wins, losses];
     }
 }
 
