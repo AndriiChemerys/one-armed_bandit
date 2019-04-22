@@ -12,7 +12,18 @@ class Game {
         this.spanLosses = document.querySelector('.score span.loss');
 
     }
-    render() {
+    render(colors = ['gray','gray','gray'], money = this.wallet.getWalletValue(), stats = [0,0,0]) {
+        console.log('gramy!');
+
+        this.boards.forEach((board, i) => {
+            board.style.backgroundColor = colors[i]
+        })
+
+        this.spanWallet.textContent = money;
+        this.spanResult.textContent = result;
+        this.spanGames.textContent = stats[0];
+        this.spanWins.textContent = stats[0];
+        this.spanLosses.textContent = stats[0];
 
     }
 
