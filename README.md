@@ -4,7 +4,7 @@
 
 > One-armed bandit project link:
 
-https://andriichemerys.github.io/one-armed_bandit/.
+https://andriichemerys.github.io/one-armed_bandit/
 
 - - -
 
