@@ -8,7 +8,7 @@ https://andriichemerys.github.io/one-armed_bandit/
 
 - - -
 
-Slot machine app created with HTML, CSS and JS. :heavy_check_mark:   
+Slot machine app created while passing Web Samurai: JS programming course, with HTML, CSS and JS. :heavy_check_mark:   
 
 > Project screenshot
 
