@@ -8,7 +8,7 @@ https://andriichemerys.github.io/one-armed_bandit/
 
 - - -
 
-**1.** HTML basic structure. :heavy_check_mark:   
+Slot machine app created with HTML, CSS and JS. :heavy_check_mark:   
 
 > Project screenshot
 
